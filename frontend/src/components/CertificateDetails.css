@@ -1,0 +1,104 @@
+/* Container styles */
+.certificate-details-container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+}
+
+/* Heading styles */
+.certificate-details-container h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Error message styles */
+.error-message {
+  color: #d9534f;
+  background-color: #f2dede;
+  padding: 10px;
+  border: 1px solid #ebccd1;
+  border-radius: 4px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Certificate card styles */
+.certificate-card {
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 15px;
+  margin-bottom: 15px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.certificate-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.certificate-card p {
+  margin: 5px 0;
+  color: #555;
+}
+
+.certificate-card strong {
+  color: #333;
+}
+
+/* Button styles */
+.back-btn {
+  display: block;
+  width: 100%;
+  max-width: 200px;
+  margin: 20px auto 0;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #ffffff;
+  text-align: center;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.back-btn:hover {
+  background-color: #0056b3;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+  .certificate-details-container {
+    padding: 15px;
+  }
+
+  .certificate-card {
+    padding: 10px;
+  }
+
+  .back-btn {
+    font-size: 14px;
+    padding: 8px 16px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .certificate-details-container h2 {
+    font-size: 18px;
+  }
+
+  .certificate-card {
+    padding: 8px;
+  }
+
+  .back-btn {
+    font-size: 12px;
+  }
+}
